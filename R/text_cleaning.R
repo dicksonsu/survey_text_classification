@@ -43,6 +43,10 @@ x <- stringr::str_replace(
   "^youtube creators like\\s+",
   "youtube,"
 )
+  x <- stringr::str_remove(
+    x,
+    "^(i (mostly )?(watch|follow|listen to))\\s+"
+  )
   x
 }
 
