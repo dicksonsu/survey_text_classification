@@ -34,21 +34,37 @@ normalize_q22 <- function(x) {
     'adin ross kai cenat' = 'adin ross, kai cenat'
   )
   for (old in names(repairs)) {
-    x <- stringr::str_replace_all(x, stringr::fixed(old), repairs[[old]])
-  }
-  # Separate platform references from named creators
-  # in responses using "youtube creators like ..."
-  x <- stringr::str_replace(
+  x <- stringr::str_replace_all(
     x,
-    "^youtube creators like\\s+",
-    "youtube,"
+    stringr::fixed(old),
+    repairs[[old]]
   )
-  x <- stringr::str_remove(
-    x,
-    "^(i (mostly )?(watch|follow|listen to))\\s+"
-  )
-  x
 }
+
+# Remove common introductory phrases
+# before identifiable names or content descriptions.
+x <- stringr::str_remove(
+  x,
+  "^(i (mostly )?(watch|follow|listen to))\\s+"
+)
+
+# Remove introductory wording before named sources.
+x <- stringr::str_remove(
+  x,
+  "^i like podcasts such as\\s+"
+)
+
+# Preserve the platform and creator as separate mentions.
+x <- stringr::str_replace(
+  x,
+  "^youtube creators like\\s+",
+  "youtube,"
+)
+
+x <- stringr::str_squish(x)
+
+x
+  }
 
 prepare_q22 <- function(data) {
   stopifnot(all(c('RESPID', 'Q22') %in% names(data)))

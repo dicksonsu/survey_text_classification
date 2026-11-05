@@ -45,11 +45,29 @@ classify_q22 <- function(x) {
   dplyr::case_when(
     is.na(x) | x == '' ~ 'junk',
     stringr::str_detect(x, junk) ~ 'junk',
+    # Additional clear nonresponses
+stringr::str_detect(
+  x,
+  "^(i cannot remember names|i do not follow anybody|i follow nobody)$"
+) ~ "junk",
     stringr::str_detect(x, '^(a|n|na|n/a|999)$') ~ 'junk',
     stringr::str_detect(x, '^(myself|good)$') ~ 'mixed_or_needs_review',
     stringr::str_detect(x, '\\b(none|no one|nobody|nothing|dont know|not sure|cant remember|cannot remember|dont remember|dont recall|i dont follow|i do not follow|cant think of any|cannot think of any)\\b') &
       stringr::str_count(x, '\\S+') >= 4 ~ 'mixed_or_needs_review',
     stringr::str_detect(x, '\\b(influencers?|content creators?|creators?|podcasts?|people) like\\s+') ~ 'mixed_or_needs_review',
+    # Generic descriptions without identifiable named creators
+
+# Unspecified groups of people or creators
+stringr::str_detect(
+  x,
+  "^(a few|some)\\s+(finance people|people|basketball players|on social media|on twitch)$"
+) ~ "generic_nonentity",
+
+# Generic references to platforms, topics, or formats
+stringr::str_detect(
+  x,
+  "^(researchers on youtube|a podcast about science|a sports podcast|mostly fitness videos|the news|podcast shows|nba highlights)$"
+) ~ "platform_or_topic",
     stringr::str_detect(x, '^(espn|nfl|barstool|jre|daily wire|cnn)$') ~ 'named_source',
     stringr::str_detect(x, '\\b(podcast|show|news|journal|times|daily|radio|network|channel)\\b') &
       stringr::str_count(x, '\\S+') >= 2 ~ 'named_source',
