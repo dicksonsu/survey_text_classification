@@ -25,6 +25,6 @@ print(standardized |>
         utils::head(20))
 cat('\nUnmapped unique mentions to review (first 30):\n')
 print(standardized |>
-        dplyr::filter(standardization_status == 'unmapped_needs_review') |>
+        dplyr::filter(standardization_status == 'unmapped_candidate') |>
         dplyr::distinct(Q22, entity_clean) |>
         utils::head(30))
