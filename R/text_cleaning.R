@@ -64,6 +64,7 @@ x <- stringr::str_replace(
 x <- stringr::str_squish(x)
 
 x
+  }
 
 prepare_q22 <- function(data) {
   stopifnot(all(c('RESPID', 'Q22') %in% names(data)))
