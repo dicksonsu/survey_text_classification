@@ -36,6 +36,17 @@ normalize_q22 <- function(x) {
   for (old in names(repairs)) {
     x <- stringr::str_replace_all(x, stringr::fixed(old), repairs[[old]])
   }
+  # Separate platform references from named creators
+  # in responses using "youtube creators like ..."
+  x <- stringr::str_replace(
+    x,
+    "^youtube creators like\\s+",
+    "youtube,"
+  )
+  x <- stringr::str_remove(
+    x,
+    "^(i (mostly )?(watch|follow|listen to))\\s+"
+  )
   x
 }
 
