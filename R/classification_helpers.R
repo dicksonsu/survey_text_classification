@@ -45,6 +45,11 @@ classify_q22 <- function(x) {
   dplyr::case_when(
     is.na(x) | x == '' ~ 'junk',
     stringr::str_detect(x, junk) ~ 'junk',
+    # Additional clear nonresponses
+stringr::str_detect(
+  x,
+  "^(i cannot remember names|i do not follow anybody|i follow nobody)$"
+) ~ "junk",
     stringr::str_detect(x, '^(a|n|na|n/a|999)$') ~ 'junk',
     stringr::str_detect(x, '^(myself|good)$') ~ 'mixed_or_needs_review',
     stringr::str_detect(x, '\\b(none|no one|nobody|nothing|dont know|not sure|cant remember|cannot remember|dont remember|dont recall|i dont follow|i do not follow|cant think of any|cannot think of any)\\b') &
