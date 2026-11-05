@@ -25,7 +25,7 @@ standardize_entities <- function(classified, aliases) {
       standardization_status = dplyr::case_when(
         !response_type %in% source_types ~ 'not_applicable',
         !is.na(entity_clean) ~ 'alias_matched',
-        TRUE ~ 'unmapped_needs_review'
+        TRUE ~ 'unmapped_candidate'
       ),
       entity_clean = dplyr::case_when(
         !response_type %in% source_types ~ NA_character_,
