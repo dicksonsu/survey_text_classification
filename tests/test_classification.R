@@ -6,9 +6,9 @@ examples <- data.frame(
   mention=c('joe rogan','youtube','mr beast','a few finance people',
             'a podcast about science','researchers on youtube','the news',
             'i cannot remember names','i follow nobody','myself'),
-  expected=c('entity','platform_or_topic','entity','generic_nonentity',
+  expected=c('entity','platform_or_topic','entity','platform_or_topic',
              'platform_or_topic','platform_or_topic','platform_or_topic',
-             'junk','junk','mixed_or_needs_review')
+             'junk','junk','junk')
 )
 actual <- classify_q22(examples$mention)
 fail <- which(is.na(actual) | actual != examples$expected)

@@ -1,0 +1,7 @@
+measure,numerator,denominator,value
+response_segmentation_exact,96,100,0.96
+reference_mentions_correctly_segmented,105,109,0.963302752293578
+type_accuracy_conditional_on_segmentation,27,105,0.2571428571428571
+macro_f1_conditional_on_segmentation,,,0.2677133329627407
+canonical_name_agreement_conditional_and_resolved,0,47,0
+end_to_end_agreement_conditional_and_resolved,0,47,0
