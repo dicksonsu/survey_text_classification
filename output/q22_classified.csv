@@ -1,0 +1,115 @@
+RESPID,Q22,AGE,GENDER,Q22_original,mention_number,response_type
+SYN0001,joe rogan,26,1,Joe Rogan,1,entity
+SYN0002,mrbeast,56,1,MrBeast,1,entity
+SYN0003,kai cenat,44,1,Kai Cenat,1,entity
+SYN0004,a sports podcast,45,2,a sports podcast,1,platform_or_topic
+SYN0005,youtube,28,2,YouTube,1,platform_or_topic
+SYN0006,i do not follow anyone,56,2,I do not follow anyone,1,junk
+SYN0007,joe rogen,29,1,joe rogen,1,entity
+SYN0008,mr beast,19,2,Mr Beast and Kai Cenat,1,entity
+SYN0008,kai cenat,19,2,Mr Beast and Kai Cenat,2,entity
+SYN0009,espn,35,2,ESPN,1,named_source
+SYN0010,true crime,21,2,true crime,1,platform_or_topic
+SYN0011,i cannot remember names,22,2,I cannot remember names,1,junk
+SYN0012,fresh & fit,54,1,Fresh & Fit,1,named_source
+SYN0013,the daily,48,1,The Daily,1,named_source
+SYN0014,tiktok,53,2,TikTok and Instagram,1,platform_or_topic
+SYN0014,instagram,53,2,TikTok and Instagram,2,platform_or_topic
+SYN0015,mostly fitness videos,25,2,mostly fitness videos,1,platform_or_topic
+SYN0016,andrew huberman,35,2,"Andrew Huberman, Lex Fridman",1,entity
+SYN0016,lex fridman,35,2,"Andrew Huberman, Lex Fridman",2,entity
+SYN0017,no one in particular,20,2,no one in particular,1,junk
+SYN0018,jre,60,1,JRE,1,named_source
+SYN0019,streamers,48,2,streamers,1,platform_or_topic
+SYN0020,podcasts,45,2,podcasts,1,platform_or_topic
+SYN0021,cristiano ronaldo,56,1,Cristiano Ronaldo,1,entity
+SYN0022,cristiano ronaldo,32,1,cristiano ronaldo / mrbeast,1,entity
+SYN0022,mrbeast,32,1,cristiano ronaldo / mrbeast,2,entity
+SYN0023,none,33,1,none,1,junk
+SYN0024,not sure,63,1,not sure,1,junk
+SYN0025,dave ramsey,64,1,Dave Ramsey,1,entity
+SYN0026,dave ramsay,50,1,dave ramsay,1,entity
+SYN0027,the joe rogan experience,43,2,The Joe Rogan Experience,1,named_source
+SYN0028,cooking creators,43,1,I follow cooking creators,1,platform_or_topic
+SYN0029,sports,27,2,"sports, gaming and technology",1,platform_or_topic
+SYN0029,gaming,27,2,"sports, gaming and technology",2,platform_or_topic
+SYN0029,technology,27,2,"sports, gaming and technology",3,platform_or_topic
+SYN0030,shannon sharpe,52,2,Shannon Sharpe,1,entity
+SYN0031,club shay shay,51,2,Club Shay Shay,1,named_source
+SYN0032,a few finance people,38,2,a few finance people,1,platform_or_topic
+SYN0033,mark rober,43,2,Mark Rober,1,entity
+SYN0034,mkbhd,59,1,MKBHD,1,entity
+SYN0035,marques brownlee,58,1,Marques Brownlee,1,entity
+SYN0036,marques brownlee,22,1,I mostly watch Marques Brownlee,1,entity
+SYN0037,cnn,45,1,CNN,1,named_source
+SYN0038,bbc news,33,1,BBC News,1,named_source
+SYN0039,npr,22,2,NPR,1,named_source
+SYN0040,the news,47,2,I watch the news,1,platform_or_topic
+SYN0041,youtube,26,2,YouTube creators like Mr Beast,1,platform_or_topic
+SYN0041,mr beast,26,2,YouTube creators like Mr Beast,2,entity
+SYN0042,the daily,36,1,I like podcasts such as The Daily,1,named_source
+SYN0043,andrew tate,22,1,Andrew Tate,1,entity
+SYN0044,jordan peterson,58,2,Jordan Peterson,1,entity
+SYN0045,some people on twitch,18,1,some people on Twitch,1,platform_or_topic
+SYN0046,instagram,43,1,Instagram,1,platform_or_topic
+SYN0047,n/a,41,2,n/a,1,junk
+SYN0048,idk,45,2,idk,1,junk
+SYN0049,none really,25,1,none really,1,junk
+SYN0050,joe rogan,49,2,I watch Joe Rogan and Dave Ramsey,1,entity
+SYN0050,dave ramsey,49,2,I watch Joe Rogan and Dave Ramsey,2,entity
+SYN0051,joe rogan,56,1,Joe Rogan / Joe Rogen,1,entity
+SYN0051,joe rogen,56,1,Joe Rogan / Joe Rogen,2,entity
+SYN0052,mrbeast,18,1,"MrBeast, Mark Rober and MKBHD",1,entity
+SYN0052,mark rober,18,1,"MrBeast, Mark Rober and MKBHD",2,entity
+SYN0052,mkbhd,18,1,"MrBeast, Mark Rober and MKBHD",3,entity
+SYN0053,stephen curry,54,2,Stephen Curry,1,entity
+SYN0054,lebron james,28,2,LeBron James,1,entity
+SYN0055,nba,37,2,NBA,1,platform_or_topic
+SYN0056,nfl,44,2,NFL,1,platform_or_topic
+SYN0057,nba highlights,40,2,NBA highlights,1,platform_or_topic
+SYN0058,politics,44,2,politics,1,platform_or_topic
+SYN0059,finance,60,1,finance,1,platform_or_topic
+SYN0060,music,38,2,music,1,platform_or_topic
+SYN0061,a lot of different ones,23,1,a lot of different ones,1,generic_nonentity
+SYN0062,too many to list,20,1,too many to list,1,generic_nonentity
+SYN0063,i do not know,45,2,I do not know,1,junk
+SYN0064,nobody,57,2,I follow nobody,1,junk
+SYN0065,ali abdaal,51,2,Ali Abdaal,1,entity
+SYN0066,veritasium,39,1,Veritasium,1,named_source
+SYN0067,kurzgesagt,63,1,Kurzgesagt,1,named_source
+SYN0068,hank green,51,2,Hank Green,1,entity
+SYN0069,cleo abram,62,2,Cleo Abram,1,entity
+SYN0070,michelle khare,37,1,Michelle Khare,1,entity
+SYN0071,a podcast about science,20,2,a podcast about science,1,platform_or_topic
+SYN0072,twitch,57,1,Twitch,1,platform_or_topic
+SYN0073,reddit,60,2,Reddit,1,platform_or_topic
+SYN0074,the daily show,55,1,The Daily Show,1,named_source
+SYN0075,the daily show,58,1,the daily show,1,named_source
+SYN0076,the daily,25,2,the daily,1,named_source
+SYN0077,call her daddy,30,1,Call Her Daddy,1,named_source
+SYN0078,podcast shows,39,1,podcast shows,1,platform_or_topic
+SYN0079,myself,42,1,myself,1,junk
+SYN0080,good,50,2,good,1,junk
+SYN0081,a few on social media,33,1,a few on social media,1,platform_or_topic
+SYN0082,pat mcafee,38,2,Pat McAfee,1,entity
+SYN0083,the pat mcafee show,41,2,The Pat McAfee Show,1,named_source
+SYN0084,shane gillis,39,2,Shane Gillis,1,entity
+SYN0085,theo von,34,2,Theo Von,1,entity
+SYN0086,theo von,45,2,"I watch Theo Von, Shane Gillis",1,entity
+SYN0086,shane gillis,45,2,"I watch Theo Von, Shane Gillis",2,entity
+SYN0087,youtube,23,2,"YouTube, Twitch",1,platform_or_topic
+SYN0087,twitch,23,2,"YouTube, Twitch",2,platform_or_topic
+SYN0088,kai cenat,26,2,KAI cenat,1,entity
+SYN0089,dr mike,55,2,dr mike,1,entity
+SYN0090,doctor mike,65,2,Doctor Mike,1,entity
+SYN0091,researchers on youtube,26,2,I follow researchers on Youtube,1,platform_or_topic
+SYN0092,some basketball players,56,1,some basketball players,1,platform_or_topic
+SYN0094,mrbeast,58,1,Mr.Beast,1,entity
+SYN0095,j0e rogan,41,1,J0e Rogan,1,entity
+SYN0096,espn,57,2,ESPN and The Daily,1,named_source
+SYN0096,the daily,57,2,ESPN and The Daily,2,named_source
+SYN0097,i do not follow anybody,46,2,I do not follow anybody,1,junk
+SYN0098,npr,62,2,"NPR, BBC News",1,named_source
+SYN0098,bbc news,62,2,"NPR, BBC News",2,named_source
+SYN0099,a creator called alex,34,2,a creator called Alex,1,entity
+SYN0100,alex,43,1,Alex,1,entity

@@ -1,0 +1,3 @@
+RESPID,mention_number,Q22_reference,Q22_original,reference_type,reference_entity,review_notes,review_status,Q22_classified,response_type,Q22_standardized,entity_clean,standardization_status,type_correct
+SYN0099,1,a creator called alex,a creator called Alex,entity,NA,Researcher adjudication: explicit person reference by first name; canonical identity unresolved. Do not infer surname or treat as failed identification.,human_verified,a creator called alex,entity,a creator called alex,NA,unmapped_candidate,TRUE
+SYN0100,1,alex,Alex,entity,NA,Researcher adjudication: explicit person reference by first name; canonical identity unresolved. Do not infer surname or treat as failed identification.,human_verified,alex,entity,alex,NA,unmapped_candidate,TRUE

@@ -1,0 +1,115 @@
+RESPID,mention_number,Q22_reference,Q22_original,reference_type,reference_entity,review_notes,review_status,Q22_classified,response_type,Q22_standardized,entity_clean,standardization_status,type_correct
+SYN0001,1,joe rogan,Joe Rogan,entity,Joe Rogan,Named person; straightforward identification.,human_verified,joe rogan,entity,joe rogan,Joe Rogan,alias_matched,TRUE
+SYN0002,1,mrbeast,MrBeast,entity,MrBeast,Named creator/brand identity.,human_verified,mrbeast,entity,mrbeast,MrBeast,alias_matched,TRUE
+SYN0003,1,kai cenat,Kai Cenat,entity,Kai Cenat,Named creator.,human_verified,kai cenat,entity,kai cenat,Kai Cenat,alias_matched,TRUE
+SYN0004,1,a sports podcast,a sports podcast,platform_or_topic,NA,Generic program format; no program title given.,human_verified,a sports podcast,platform_or_topic,a sports podcast,NA,not_applicable,TRUE
+SYN0005,1,youtube,YouTube,platform_or_topic,NA,Platform only.,human_verified,youtube,platform_or_topic,youtube,NA,not_applicable,TRUE
+SYN0006,1,i do not follow anyone,I do not follow anyone,junk,NA,Explicit statement of not following creators; preserve subtype separately from category.,human_verified,i do not follow anyone,junk,i do not follow anyone,NA,not_applicable,TRUE
+SYN0007,1,joe rogen,joe rogen,entity,Joe Rogan,Obvious spelling variant; normalize to Joe Rogan.,human_verified,joe rogen,entity,joe rogen,Joe Rogan,alias_matched,TRUE
+SYN0008,1,mr beast,Mr Beast and Kai Cenat,entity,MrBeast,First of two distinct mentions.,human_verified,mr beast,entity,mr beast,MrBeast,alias_matched,TRUE
+SYN0008,2,kai cenat,Mr Beast and Kai Cenat,entity,Kai Cenat,Second of two distinct mentions.,human_verified,kai cenat,entity,kai cenat,Kai Cenat,alias_matched,TRUE
+SYN0009,1,espn,ESPN,named_source,ESPN,Named media organization/brand.,human_verified,espn,named_source,espn,ESPN,alias_matched,TRUE
+SYN0010,1,true crime,true crime,platform_or_topic,NA,"Content genre, not identifiable creator.",human_verified,true crime,platform_or_topic,true crime,NA,not_applicable,TRUE
+SYN0011,1,i cannot remember names,I cannot remember names,junk,NA,Cannot recall names; does not imply absence of following.,human_verified,i cannot remember names,junk,i cannot remember names,NA,not_applicable,TRUE
+SYN0012,1,fresh & fit,Fresh & Fit,named_source,Fresh and Fit,Named podcast/brand; retain named_source and canonical source name Fresh and Fit (protocol decision).,human_verified,fresh & fit,named_source,fresh & fit,Fresh and Fit,alias_matched,TRUE
+SYN0013,1,the daily,The Daily,named_source,The Daily,Specific named news podcast.,human_verified,the daily,named_source,the daily,The Daily,alias_matched,TRUE
+SYN0014,1,tiktok,TikTok and Instagram,platform_or_topic,NA,"Platform, first of two.",human_verified,tiktok,platform_or_topic,tiktok,NA,not_applicable,TRUE
+SYN0014,2,instagram,TikTok and Instagram,platform_or_topic,NA,"Platform, second of two.",human_verified,instagram,platform_or_topic,instagram,NA,not_applicable,TRUE
+SYN0015,1,mostly fitness videos,mostly fitness videos,platform_or_topic,NA,Describes a content genre rather than named creators.,human_verified,mostly fitness videos,platform_or_topic,mostly fitness videos,NA,not_applicable,TRUE
+SYN0016,1,andrew huberman,"Andrew Huberman, Lex Fridman",entity,Andrew Huberman,First distinct named person.,human_verified,andrew huberman,entity,andrew huberman,Andrew Huberman,alias_matched,TRUE
+SYN0016,2,lex fridman,"Andrew Huberman, Lex Fridman",entity,Lex Fridman,Second distinct named person.,human_verified,lex fridman,entity,lex fridman,Lex Fridman,alias_matched,TRUE
+SYN0017,1,no one in particular,no one in particular,junk,NA,No specific name supplied; does not necessarily indicate following nobody.,human_verified,no one in particular,junk,no one in particular,NA,not_applicable,TRUE
+SYN0018,1,jre,JRE,named_source,The Joe Rogan Experience,Program abbreviation; preserve the named program rather than collapsing to its host.,human_verified,jre,named_source,jre,The Joe Rogan Experience,alias_matched,TRUE
+SYN0019,1,streamers,streamers,platform_or_topic,NA,"Generic creator type, not an identifiable individual.",human_verified,streamers,platform_or_topic,streamers,NA,not_applicable,TRUE
+SYN0020,1,podcasts,podcasts,platform_or_topic,NA,"Content format, not a specific podcast.",human_verified,podcasts,platform_or_topic,podcasts,NA,not_applicable,TRUE
+SYN0021,1,cristiano ronaldo,Cristiano Ronaldo,entity,Cristiano Ronaldo,Named individual.,human_verified,cristiano ronaldo,entity,cristiano ronaldo,Cristiano Ronaldo,alias_matched,TRUE
+SYN0022,1,cristiano ronaldo,cristiano ronaldo / mrbeast,entity,Cristiano Ronaldo,First of two mentions in original response.,human_verified,cristiano ronaldo,entity,cristiano ronaldo,Cristiano Ronaldo,alias_matched,TRUE
+SYN0022,2,mrbeast,cristiano ronaldo / mrbeast,entity,MrBeast,Second of two mentions in original response.,human_verified,mrbeast,entity,mrbeast,MrBeast,alias_matched,TRUE
+SYN0023,1,none,none,junk,NA,"Interpret ""none"" as no creators followed given the Q22 survey context; interpretive, not independently observed.",human_verified,none,junk,none,NA,not_applicable,TRUE
+SYN0024,1,not sure,not sure,junk,NA,Operationally interpret uncertainty as inability to supply names; does not establish whether respondent actually follows creators.,human_verified,not sure,junk,not sure,NA,not_applicable,TRUE
+SYN0025,1,dave ramsey,Dave Ramsey,entity,Dave Ramsey,Named individual.,human_verified,dave ramsey,entity,dave ramsey,Dave Ramsey,alias_matched,TRUE
+SYN0026,1,dave ramsay,dave ramsay,entity,Dave Ramsey,Spelling variant of Dave Ramsey.,human_verified,dave ramsay,entity,dave ramsay,Dave Ramsey,alias_matched,TRUE
+SYN0027,1,the joe rogan experience,The Joe Rogan Experience,named_source,The Joe Rogan Experience,Named podcast title; keep distinct from host identity.,human_verified,the joe rogan experience,named_source,the joe rogan experience,The Joe Rogan Experience,alias_matched,TRUE
+SYN0028,1,cooking creators,I follow cooking creators,platform_or_topic,NA,Generic creator type in cooking domain.,human_verified,cooking creators,platform_or_topic,cooking creators,NA,not_applicable,TRUE
+SYN0029,1,sports,"sports, gaming and technology",platform_or_topic,NA,First topic separated from original response.,human_verified,sports,platform_or_topic,sports,NA,not_applicable,TRUE
+SYN0029,2,gaming,"sports, gaming and technology",platform_or_topic,NA,Second topic separated from original response.,human_verified,gaming,platform_or_topic,gaming,NA,not_applicable,TRUE
+SYN0029,3,technology,"sports, gaming and technology",platform_or_topic,NA,Third topic separated from original response.,human_verified,technology,platform_or_topic,technology,NA,not_applicable,TRUE
+SYN0030,1,shannon sharpe,Shannon Sharpe,entity,Shannon Sharpe,Named individual.,human_verified,shannon sharpe,entity,shannon sharpe,Shannon Sharpe,alias_matched,TRUE
+SYN0031,1,club shay shay,Club Shay Shay,named_source,Club Shay Shay,"Named program, distinct from its host Shannon Sharpe.",human_verified,club shay shay,named_source,club shay shay,Club Shay Shay,alias_matched,TRUE
+SYN0032,1,a few finance people,a few finance people,platform_or_topic,NA,Finance is a substantive topic even though specific creators are not named.,human_verified,a few finance people,platform_or_topic,a few finance people,NA,not_applicable,TRUE
+SYN0033,1,mark rober,Mark Rober,entity,Mark Rober,Named individual.,human_verified,mark rober,entity,mark rober,Mark Rober,alias_matched,TRUE
+SYN0034,1,mkbhd,MKBHD,entity,Marques Brownlee,MKBHD is Marques Brownlee creator alias.,human_verified,mkbhd,entity,mkbhd,Marques Brownlee,alias_matched,TRUE
+SYN0035,1,marques brownlee,Marques Brownlee,entity,Marques Brownlee,NA,human_verified,marques brownlee,entity,marques brownlee,Marques Brownlee,alias_matched,TRUE
+SYN0036,1,marques brownlee,I mostly watch Marques Brownlee,entity,Marques Brownlee,Introductory phrase removed during preparation.,human_verified,marques brownlee,entity,marques brownlee,Marques Brownlee,alias_matched,TRUE
+SYN0037,1,cnn,CNN,named_source,CNN,Named media organization.,human_verified,cnn,named_source,cnn,CNN,alias_matched,TRUE
+SYN0038,1,bbc news,BBC News,named_source,BBC News,Named media organization.,human_verified,bbc news,named_source,bbc news,BBC News,alias_matched,TRUE
+SYN0039,1,npr,NPR,named_source,NPR,Named media organization; compare with rule-based entity classification.,human_verified,npr,named_source,npr,NPR,alias_matched,TRUE
+SYN0040,1,the news,I watch the news,platform_or_topic,NA,"Generic news content, not a specific source.",human_verified,the news,platform_or_topic,the news,NA,not_applicable,TRUE
+SYN0041,1,youtube,YouTube creators like Mr Beast,platform_or_topic,NA,Split from original platform-plus-creator response.,human_verified,youtube,platform_or_topic,youtube,NA,not_applicable,TRUE
+SYN0041,2,mr beast,YouTube creators like Mr Beast,entity,MrBeast,Split from original platform-plus-creator response.,human_verified,mr beast,entity,mr beast,MrBeast,alias_matched,TRUE
+SYN0042,1,the daily,I like podcasts such as The Daily,named_source,The Daily,Named program identified from original sentence.,human_verified,the daily,named_source,the daily,The Daily,alias_matched,TRUE
+SYN0043,1,andrew tate,Andrew Tate,entity,Andrew Tate,NA,human_verified,andrew tate,entity,andrew tate,Andrew Tate,alias_matched,TRUE
+SYN0044,1,jordan peterson,Jordan Peterson,entity,Jordan Peterson,NA,human_verified,jordan peterson,entity,jordan peterson,Jordan Peterson,alias_matched,TRUE
+SYN0045,1,some people on twitch,some people on Twitch,platform_or_topic,NA,General type of creator plus platform; no named individual.,human_verified,some people on twitch,platform_or_topic,some people on twitch,NA,not_applicable,TRUE
+SYN0046,1,instagram,Instagram,platform_or_topic,NA,Platform.,human_verified,instagram,platform_or_topic,instagram,NA,not_applicable,TRUE
+SYN0047,1,n/a,n/a,junk,NA,"Protected placeholder: one original n/a response, previously split incorrectly into n and a.",human_verified,n/a,junk,n/a,NA,not_applicable,TRUE
+SYN0048,1,idk,idk,junk,NA,Researcher-adopted contextual interpretation; does not independently prove following behavior.,human_verified,idk,junk,idk,NA,not_applicable,TRUE
+SYN0049,1,none really,none really,junk,NA,Contextual interpretation of none-like answer; approved in this batch.,human_verified,none really,junk,none really,NA,not_applicable,TRUE
+SYN0050,1,joe rogan,I watch Joe Rogan and Dave Ramsey,entity,Joe Rogan,Split from two-person original response.,human_verified,joe rogan,entity,joe rogan,Joe Rogan,alias_matched,TRUE
+SYN0050,2,dave ramsey,I watch Joe Rogan and Dave Ramsey,entity,Dave Ramsey,Split from two-person original response.,human_verified,dave ramsey,entity,dave ramsey,Dave Ramsey,alias_matched,TRUE
+SYN0051,1,joe rogan,Joe Rogan / Joe Rogen,entity,Joe Rogan,Original response Joe Rogan / Joe Rogen produces two mentions of same person; respondent-level deduplication needed.,human_verified,joe rogan,entity,joe rogan,Joe Rogan,alias_matched,TRUE
+SYN0051,2,joe rogen,Joe Rogan / Joe Rogen,entity,Joe Rogan,"Second mention of same creator; retain at mention level, deduplicate at respondent level.",human_verified,joe rogen,entity,joe rogen,Joe Rogan,alias_matched,TRUE
+SYN0052,1,mrbeast,"MrBeast, Mark Rober and MKBHD",entity,MrBeast,NA,human_verified,mrbeast,entity,mrbeast,MrBeast,alias_matched,TRUE
+SYN0052,2,mark rober,"MrBeast, Mark Rober and MKBHD",entity,Mark Rober,NA,human_verified,mark rober,entity,mark rober,Mark Rober,alias_matched,TRUE
+SYN0052,3,mkbhd,"MrBeast, Mark Rober and MKBHD",entity,Marques Brownlee,MKBHD is a creator alias for Marques Brownlee; preserve raw mention.,human_verified,mkbhd,entity,mkbhd,Marques Brownlee,alias_matched,TRUE
+SYN0053,1,stephen curry,Stephen Curry,entity,Stephen Curry,NA,human_verified,stephen curry,entity,stephen curry,Stephen Curry,alias_matched,TRUE
+SYN0054,1,lebron james,LeBron James,entity,LeBron James,NA,human_verified,lebron james,entity,lebron james,LeBron James,alias_matched,TRUE
+SYN0055,1,nba,NBA,platform_or_topic,NA,"Researcher decision: unqualified sports league reference is a general content domain, not an identified publisher.",human_verified,nba,platform_or_topic,nba,NA,not_applicable,TRUE
+SYN0056,1,nfl,NFL,platform_or_topic,NA,"Researcher decision: unqualified sports league reference is a general content domain, not an identified publisher.",human_verified,nfl,platform_or_topic,nfl,NA,not_applicable,TRUE
+SYN0057,1,nba highlights,NBA highlights,platform_or_topic,NA,"Researcher decision: NBA highlights describes content type, not a specific publisher.",human_verified,nba highlights,platform_or_topic,nba highlights,NA,not_applicable,TRUE
+SYN0058,1,politics,politics,platform_or_topic,NA,NA,human_verified,politics,platform_or_topic,politics,NA,not_applicable,TRUE
+SYN0059,1,finance,finance,platform_or_topic,NA,NA,human_verified,finance,platform_or_topic,finance,NA,not_applicable,TRUE
+SYN0060,1,music,music,platform_or_topic,NA,NA,human_verified,music,platform_or_topic,music,NA,not_applicable,TRUE
+SYN0061,1,a lot of different ones,a lot of different ones,generic_nonentity,NA,Vague count with no topic or names.,human_verified,a lot of different ones,generic_nonentity,a lot of different ones,NA,not_applicable,TRUE
+SYN0062,1,too many to list,too many to list,generic_nonentity,NA,No names or content topics identified.,human_verified,too many to list,generic_nonentity,too many to list,NA,not_applicable,TRUE
+SYN0063,1,i do not know,I do not know,junk,NA,Operational non-recall interpretation; response alone does not establish following behavior.,human_verified,i do not know,junk,i do not know,NA,not_applicable,TRUE
+SYN0064,1,nobody,I follow nobody,junk,NA,Original response is I follow nobody; keep that context even though the prepared text is nobody.,human_verified,nobody,junk,nobody,NA,not_applicable,TRUE
+SYN0065,1,ali abdaal,Ali Abdaal,entity,Ali Abdaal,NA,human_verified,ali abdaal,entity,ali abdaal,Ali Abdaal,alias_matched,TRUE
+SYN0066,1,veritasium,Veritasium,named_source,Veritasium,Branded educational channel; classify as named_source rather than an individual person. Researcher confirmed branded channels remain named_source.,human_verified,veritasium,named_source,veritasium,Veritasium,alias_matched,TRUE
+SYN0067,1,kurzgesagt,Kurzgesagt,named_source,Kurzgesagt,Branded animation/educational channel; classify as named_source. Researcher confirmed branded channels remain named_source.,human_verified,kurzgesagt,named_source,kurzgesagt,Kurzgesagt,alias_matched,TRUE
+SYN0068,1,hank green,Hank Green,entity,Hank Green,NA,human_verified,hank green,entity,hank green,Hank Green,alias_matched,TRUE
+SYN0069,1,cleo abram,Cleo Abram,entity,Cleo Abram,NA,human_verified,cleo abram,entity,cleo abram,Cleo Abram,alias_matched,TRUE
+SYN0070,1,michelle khare,Michelle Khare,entity,Michelle Khare,Named individual creator.,human_verified,michelle khare,entity,michelle khare,Michelle Khare,alias_matched,TRUE
+SYN0071,1,a podcast about science,a podcast about science,platform_or_topic,NA,"Identifies a format and science topic, not a named show.",human_verified,a podcast about science,platform_or_topic,a podcast about science,NA,not_applicable,TRUE
+SYN0072,1,twitch,Twitch,platform_or_topic,NA,Platform only.,human_verified,twitch,platform_or_topic,twitch,NA,not_applicable,TRUE
+SYN0073,1,reddit,Reddit,platform_or_topic,NA,"Platform/community site, not a specific community or producer.",human_verified,reddit,platform_or_topic,reddit,NA,not_applicable,TRUE
+SYN0074,1,the daily show,The Daily Show,named_source,The Daily Show,Specific named television/comedy news program; not The Daily.,human_verified,the daily show,named_source,the daily show,The Daily Show,alias_matched,TRUE
+SYN0075,1,the daily show,the daily show,named_source,The Daily Show,"Same titled program as prior record, different respondent.",human_verified,the daily show,named_source,the daily show,The Daily Show,alias_matched,TRUE
+SYN0076,1,the daily,the daily,named_source,The Daily,"Specific named news podcast, distinct from The Daily Show.",human_verified,the daily,named_source,the daily,The Daily,alias_matched,TRUE
+SYN0077,1,call her daddy,Call Her Daddy,named_source,Call Her Daddy,"Specific named podcast, not the host.",human_verified,call her daddy,named_source,call her daddy,Call Her Daddy,alias_matched,TRUE
+SYN0078,1,podcast shows,podcast shows,platform_or_topic,NA,"Generic content format, no named program.",human_verified,podcast shows,platform_or_topic,podcast shows,NA,not_applicable,TRUE
+SYN0079,1,myself,myself,junk,NA,Ambiguous self-reference/joke; needs researcher adjudication: junk/unusable vs ambiguous mention. Researcher approved junk/unusable.,human_verified,myself,junk,myself,NA,not_applicable,TRUE
+SYN0080,1,good,good,junk,NA,"Evaluative word with no identifiable content, creator, or response. Researcher approved junk/unusable.",human_verified,good,junk,good,NA,not_applicable,TRUE
+SYN0081,1,a few on social media,a few on social media,platform_or_topic,NA,"Generic creators with a recognizable platform class, not a specific source. Researcher confirmed platform_or_topic.",human_verified,a few on social media,platform_or_topic,a few on social media,NA,not_applicable,TRUE
+SYN0082,1,pat mcafee,Pat McAfee,entity,Pat McAfee,"Identifiable individual, distinct from the program.",human_verified,pat mcafee,entity,pat mcafee,Pat McAfee,alias_matched,TRUE
+SYN0083,1,the pat mcafee show,The Pat McAfee Show,named_source,The Pat McAfee Show,"Specific branded program, distinct from host.",human_verified,the pat mcafee show,named_source,the pat mcafee show,The Pat McAfee Show,alias_matched,TRUE
+SYN0084,1,shane gillis,Shane Gillis,entity,Shane Gillis,Identifiable individual.,human_verified,shane gillis,entity,shane gillis,Shane Gillis,alias_matched,TRUE
+SYN0085,1,theo von,Theo Von,entity,Theo Von,Identifiable individual.,human_verified,theo von,entity,theo von,Theo Von,alias_matched,TRUE
+SYN0086,1,theo von,"I watch Theo Von, Shane Gillis",entity,Theo Von,First creator in multi-name original response.,human_verified,theo von,entity,theo von,Theo Von,alias_matched,TRUE
+SYN0086,2,shane gillis,"I watch Theo Von, Shane Gillis",entity,Shane Gillis,Second creator in multi-name original response.,human_verified,shane gillis,entity,shane gillis,Shane Gillis,alias_matched,TRUE
+SYN0087,1,youtube,"YouTube, Twitch",platform_or_topic,NA,"Platform only, split from YouTube, Twitch.",human_verified,youtube,platform_or_topic,youtube,NA,not_applicable,TRUE
+SYN0087,2,twitch,"YouTube, Twitch",platform_or_topic,NA,"Platform only, split from YouTube, Twitch.",human_verified,twitch,platform_or_topic,twitch,NA,not_applicable,TRUE
+SYN0088,1,kai cenat,KAI cenat,entity,Kai Cenat,Capitalization variant of named individual.,human_verified,kai cenat,entity,kai cenat,Kai Cenat,alias_matched,TRUE
+SYN0089,1,dr mike,dr mike,entity,Doctor Mike,Creator nickname; canonicalized to Doctor Mike as established in alias mapping.,human_verified,dr mike,entity,dr mike,Doctor Mike,alias_matched,TRUE
+SYN0090,1,doctor mike,Doctor Mike,entity,Doctor Mike,Same canonical creator as dr mike.,human_verified,doctor mike,entity,doctor mike,Doctor Mike,alias_matched,TRUE
+SYN0091,1,researchers on youtube,I follow researchers on Youtube,platform_or_topic,NA,Describes a creator type and platform; no identifiable named creator.,human_verified,researchers on youtube,platform_or_topic,researchers on youtube,NA,not_applicable,TRUE
+SYN0092,1,some basketball players,some basketball players,platform_or_topic,NA,Basketball identifies content domain; no individual players named.,human_verified,some basketball players,platform_or_topic,some basketball players,NA,not_applicable,TRUE
+SYN0094,1,mrbeast,Mr.Beast,entity,MrBeast,Punctuation variant of a named creator.,human_verified,mrbeast,entity,mrbeast,MrBeast,alias_matched,TRUE
+SYN0095,1,j0e rogan,J0e Rogan,entity,Joe Rogan,Digit-zero typo; previously established alias.,human_verified,j0e rogan,entity,j0e rogan,Joe Rogan,alias_matched,TRUE
+SYN0096,1,espn,ESPN and The Daily,named_source,ESPN,Specific publisher; researcher-confirmed publisher-versus-topic convention.,human_verified,espn,named_source,espn,ESPN,alias_matched,TRUE
+SYN0096,2,the daily,ESPN and The Daily,named_source,The Daily,"Named program, distinct from The Daily Show.",human_verified,the daily,named_source,the daily,The Daily,alias_matched,TRUE
+SYN0097,1,i do not follow anybody,I do not follow anybody,junk,NA,Explicitly states not following anyone.,human_verified,i do not follow anybody,junk,i do not follow anybody,NA,not_applicable,TRUE
+SYN0098,1,npr,"NPR, BBC News",named_source,NPR,Named media publisher.,human_verified,npr,named_source,npr,NPR,alias_matched,TRUE
+SYN0098,2,bbc news,"NPR, BBC News",named_source,BBC News,Named media publisher.,human_verified,bbc news,named_source,bbc news,BBC News,alias_matched,TRUE
+SYN0099,1,a creator called alex,a creator called Alex,entity,NA,Researcher adjudication: explicit person reference by first name; canonical identity unresolved. Do not infer surname or treat as failed identification.,human_verified,a creator called alex,entity,a creator called alex,NA,unmapped_candidate,TRUE
+SYN0100,1,alex,Alex,entity,NA,Researcher adjudication: explicit person reference by first name; canonical identity unresolved. Do not infer surname or treat as failed identification.,human_verified,alex,entity,alex,NA,unmapped_candidate,TRUE
