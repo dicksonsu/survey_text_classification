@@ -1,0 +1,6 @@
+class,reference_support,predicted_count,true_positive,false_positive,false_negative,precision,recall,f1
+entity,46,46,46,0,0,1,1,1
+generic_nonentity,2,2,2,0,0,1,1,1
+junk,13,13,13,0,0,1,1,1
+named_source,21,21,21,0,0,1,1,1
+platform_or_topic,32,32,32,0,0,1,1,1

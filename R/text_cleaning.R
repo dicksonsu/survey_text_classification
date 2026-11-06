@@ -4,10 +4,22 @@
 
 normalize_q22 <- function(x) {
   x <- stringr::str_to_lower(x)
+  # Protect n/a before replacing slash delimiters
+  x <- stringr::str_replace_all(
+    x,
+    "^\\s*n\\s*/\\s*a\\s*$",
+    "q22naplaceholder"
+  )
   x <- stringr::str_replace_all(x, 'fresh and fit', 'fresh_and_fit')
   x <- stringr::str_replace_all(x, '[^a-z0-9,/& ]', '')
   x <- stringr::str_replace_all(x, ' and ', ',')
   x <- stringr::str_replace_all(x, '/', ',')
+  # Restore n/a after punctuation normalization
+  x <- stringr::str_replace_all(
+    x,
+    "q22naplaceholder",
+    "n/a"
+  )
   x <- stringr::str_squish(x)
   x <- stringr::str_replace_all(x, 'fresh_and_fit', 'fresh and fit')
 
@@ -33,38 +45,41 @@ normalize_q22 <- function(x) {
     'gordon ramsey kelly clarkson' = 'gordon ramsey, kelly clarkson',
     'adin ross kai cenat' = 'adin ross, kai cenat'
   )
+  
   for (old in names(repairs)) {
-  x <- stringr::str_replace_all(
+    x <- stringr::str_replace_all(
+      x,
+      stringr::fixed(old),
+      repairs[[old]]
+    )
+  }
+  
+  # Remove common introductory phrases
+  # before identifiable names or content descriptions.
+  x <- stringr::str_remove(
     x,
-    stringr::fixed(old),
-    repairs[[old]]
+    "^(i (mostly )?(watch|follow|listen to))\\s+"
   )
+  
+  # Remove introductory wording before named sources.
+  x <- stringr::str_remove(
+    x,
+    "^i like podcasts such as\\s+"
+  )
+  
+  # Preserve the platform and creator as separate mentions.
+  x <- stringr::str_replace(
+    x,
+    "^youtube creators like\\s+",
+    "youtube,"
+  )
+  
+  x <- stringr::str_squish(x)
+  
+  x
 }
 
-# Remove common introductory phrases
-# before identifiable names or content descriptions.
-x <- stringr::str_remove(
-  x,
-  "^(i (mostly )?(watch|follow|listen to))\\s+"
-)
 
-# Remove introductory wording before named sources.
-x <- stringr::str_remove(
-  x,
-  "^i like podcasts such as\\s+"
-)
-
-# Preserve the platform and creator as separate mentions.
-x <- stringr::str_replace(
-  x,
-  "^youtube creators like\\s+",
-  "youtube,"
-)
-
-x <- stringr::str_squish(x)
-
-x
-  }
 
 prepare_q22 <- function(data) {
   stopifnot(all(c('RESPID', 'Q22') %in% names(data)))

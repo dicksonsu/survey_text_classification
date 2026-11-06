@@ -1,88 +1,82 @@
-# Open-Ended Survey Response Classification
+# Survey Text Classification
 
-A reproducible R-based demonstration of methods for cleaning, splitting, classifying, and standardizing open-ended survey text. A planned extension will compare a rule-based workflow with LLM-assisted coding using an independently human-reviewed reference sample.
+An R-based workflow for cleaning, classifying, and standardizing open-ended survey responses. The project demonstrates how rule-based text classification can be developed, tested, and evaluated against researcher-reviewed reference labels, with a planned extension to LLM-assisted classification.
 
-> **Data notice:** The included CSV is entirely synthetic. It contains invented response records, not real survey microdata. Frequencies and demographic variables in the example have no substantive interpretation.
+The workflow is illustrated using **100 synthetic responses** modeled on an open-ended survey question asking respondents which content creators they follow. No confidential respondent-level survey data are included.
 
-## Research questions
+## Project workflow
 
-1. How effectively can transparent rules identify named creators and media sources versus platforms, topics, nonresponses, and ambiguous text?
-2. How should misspellings, alternate names, and multi-mention answers be standardized while retaining traceability?
-3. Does LLM-assisted coding improve agreement with independently reviewed labels relative to the rule-based baseline, and where does it introduce errors?
+The pipeline consists of four stages:
 
-## Synthetic dataset
+1. **Text preparation:** Normalize responses and separate multiple mentions while retaining original response text and respondent identifiers.
+2. **Response classification:** Assign mentions to categories such as individual creators, named media sources, platforms/topics, and nonresponses.
+3. **Entity standardization:** Resolve spelling variations and aliases to consistent canonical names while retaining unresolved identities for review.
+4. **Validation and evaluation:** Run automated tests and compare classifications against a researcher-reviewed reference dataset.
 
-`data/synthetic_q22.csv` has 100 **invented** records with columns matching the original input structure:
+The classification framework and adjudication procedures are documented in [the coding protocol](docs/coding_protocol.md).
 
-| Column | Description |
-|---|---|
-| `RESPID` | Artificial identifier (`SYN0001`, etc.); no real IDs |
-| `Q22` | Fictional open-text response; may contain several mentions or be empty |
-| `AGE` | Fabricated integer for interface compatibility only |
-| `GENDER` | Fabricated numeric category for interface compatibility only |
+## Repository structure
 
-The examples intentionally include clear names, multiple mentions, misspellings, generic topics, named media outlets, explicit nonresponses, ambiguous text, and blanks. They are **test fixtures**, not a representative simulated sample.
-
-## Proposed workflow
-
-| Stage | Location | Purpose |
-|---|---|---|
-| Preparation | `scripts/01_prepare_data.R` | Read approved input, normalize punctuation, split multiple mentions |
-| Initial coding | `scripts/02_classify_responses.R` | Use documented rules to classify mention types |
-| Entity normalization | `scripts/03_standardize_entities.R` | Map variants to standard names; flag uncertain matches |
-| Validation | `tests/` and `docs/coding_protocol.md` | Add automated edge-case tests and a separate human-reviewed validation set |
-| LLM prototype | `llm/` | Apply a versioned prompt and record outputs using only permitted data |
-| Comparison | `results/` | Compare classification performance, disagreement patterns, and review requirements |
-
-Reusable functions belong in `R/`; documentation and decision logs in `docs/`.
-
-### Initial response-type labels
-
-The original analysis uses the following labels; operational definitions will be refined and documented in `docs/coding_protocol.md`:
-
-- `entity`: identifiable person or creator.
-- `named_source`: identifiable branded outlet, show, or other named media source.
-- `platform_or_topic`: platform, format, or broad content topic.
-- `generic_nonentity`: vague reply without a specific identifiable entity.
-- `junk`: nonresponse, explicit non-following, or unusable placeholder.
-- `mixed_or_needs_review`: ambiguous or mixed reply that needs inspection.
-
-These are **response-type** categories, not the same as later grouping named entities into `news_media`, `influencer`, or `celebrity`.
-
-## Current status and reproduction
-
-**Setup stage.** The original R code has not yet been refactored into the portable scripts listed above. Once implemented and tested, this section will include package versions, the exact run order, and output checks. To inspect the synthetic data in R:
-
-```r
-library(readr)
-responses <- read_csv("data/synthetic_q22.csv", show_col_types = FALSE)
-glimpse(responses)
+```text
+R/          Core cleaning, classification, and standardization functions
+data/       Synthetic input data, alias mappings, and reference labels
+docs/       Coding protocol and methodological evaluation
+scripts/    Reproducible pipeline and evaluation scripts
+tests/      Automated validation and regression tests
 ```
 
-The original research process combined rule-based text handling, manual corrections, and an additional AI-assisted entity-category worklist. Its output is **not** an independently human-reviewed ground truth. The comparison will use a separately reviewed reference sample and will disclose how it was produced.
+## Getting started
 
-## Evaluation standards
+The workflow requires R and the `dplyr`, `readr`, `stringr`, and `tidyr` packages.
 
-- Preserve record identifiers through mention splitting; verify row counts and duplicate joins.
-- Keep rule outputs separate from human-reference labels.
-- Evaluate precision, recall, and confusion by category, not just aggregate accuracy.
-- Examine ambiguous predictions and false entity matches.
-- Record prompts, model versions, settings, and human corrections for LLM experiments.
-- Do not draw external-validity conclusions from synthetic data alone.
+Run the following commands from the repository's root directory:
 
-## Privacy and publication
+```r
+source("scripts/01_prepare_data.R")
+source("scripts/02_classify_responses.R")
+source("scripts/03_standardize_entities.R")
+```
 
-No original survey responses, restricted-use datasets, respondent identifiers, API keys, or private organization file paths should be committed here. Real-data use requires appropriate permission and disclosure review. Local data and secrets should be excluded using `.gitignore`.
+To run the automated tests:
 
-## Branch and review workflow
+```r
+source("tests/test_data_preparation.R")
+source("tests/test_classification.R")
+source("tests/test_entity_standardization.R")
+source("tests/test_rule_revision_v2.R")
+```
 
-`main` holds reviewed work. Planned feature branches, each eventually merged through a pull request:
+To evaluate the classifier against the reviewed reference data:
 
-1. `feature/rule-based-pipeline`: refactor and test the R baseline.
-2. `feature/validation-tests`: create reference labels and test edge cases.
-3. `feature/llm-classification`: build an LLM-assisted prototype.
-4. `feature/model-evaluation`: compare results and document tradeoffs.
+```r
+source("scripts/04_evaluate_rule_based.R")
+```
 
-## Scope
+Evaluation outputs are written to `output/evaluation/`, including accuracy metrics, confusion matrices, and record-level disagreements.
 
-This is a methodological demonstration motivated by applied survey research. All public example records are fictional and do not constitute released study data or organizational endorsement.
+## Development evaluation
+
+The initial rule-based classifier was evaluated against 114 prepared mentions from 100 synthetic respondents. Following an error analysis and revision of the classification rules, the results were:
+
+| Metric | Baseline v1 | Revised v2 |
+|---|---:|---:|
+| Category accuracy | 85.1% | 100.0% |
+| Macro F1 | 0.801 | 1.000 |
+
+The revised classifier also achieved agreement on 65 of 65 resolvable canonical names, while retaining two unresolved person references without assigning unsupported identities.
+
+**These are development-set results, not estimates of out-of-sample accuracy.** The reference labels were initially AI-proposed and subsequently researcher-reviewed, and the same synthetic examples informed classifier refinement.
+
+For the evaluation design, results, error analysis, and limitations, see [Development Evaluation](docs/development_evaluation.md).
+
+## Next steps
+
+The next phase will evaluate the frozen rule-based classifier on a separate synthetic holdout dataset. A subsequent phase will compare rule-based and LLM-assisted classification using the same coding framework.
+
+The goal is to assess classification accuracy, identify where each method performs well or poorly, and document reproducible procedures for reviewing uncertain responses.
+
+## Data and reproducibility
+
+All publicly included survey responses are synthetic. The repository is intended to demonstrate a reproducible analytical workflow rather than publish the underlying survey microdata.
+
+The project separates response classification from entity resolution and retains the information necessary to review ambiguous or unresolved cases.

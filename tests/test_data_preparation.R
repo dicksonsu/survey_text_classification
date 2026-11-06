@@ -1,0 +1,13 @@
+# Run from repository root: Rscript tests/test_data_preparation.R
+suppressPackageStartupMessages({library(dplyr); library(tidyr); library(stringr); library(readr)})
+source('R/text_cleaning.R')
+input <- readr::read_csv('data/synthetic_q22.csv', show_col_types = FALSE)
+prepared <- prepare_q22(input)
+stopifnot(nrow(input) == 100L)
+stopifnot(nrow(prepared) == 115L)
+stopifnot(!anyNA(prepared$RESPID), !anyNA(prepared$Q22))
+stopifnot(all(nzchar(prepared$Q22)))
+stopifnot(!anyDuplicated(prepared[c('RESPID','mention_number')]))
+case <- prepared |> dplyr::filter(RESPID == 'SYN0041')
+stopifnot(nrow(case) == 2L, setequal(case$Q22, c('youtube','mr beast')))
+message('PASS: data preparation, 115 mentions, and platform/creator split')

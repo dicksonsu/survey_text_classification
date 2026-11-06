@@ -1,7 +1,7 @@
 # Exact-match alias standardization of mentions classified as entities/sources.
 # Mappings are derived from selected hand-entered rules in the original Q22 script.
 # Not every rule is copied: broad substring rules can misidentify unrelated names.
-# Unmapped mentions are retained as title-cased candidates requiring review.
+# Unmapped mentions remain unresolved, not automatically treated as known identities.
 
 standardize_entities <- function(classified, aliases) {
   required <- c('RESPID', 'Q22', 'response_type')
@@ -30,7 +30,7 @@ standardize_entities <- function(classified, aliases) {
       entity_clean = dplyr::case_when(
         !response_type %in% source_types ~ NA_character_,
         !is.na(entity_clean) ~ entity_clean,
-        TRUE ~ stringr::str_to_title(Q22)
+        TRUE ~ NA_character_
       )
     ) |>
     dplyr::select(-.mention_key)
