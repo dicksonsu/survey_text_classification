@@ -1,0 +1,5 @@
+RESPID,mention_number,Q22,reference_type,reference_entity,response_type,entity_clean,standardization_status,type_correct,resolved_reference,identity_correct,end_to_end_correct
+HOLD0012,1,a guy named ben who talks about running,entity,,entity,,unmapped_candidate,TRUE,FALSE,,
+HOLD0028,1,a girl named jess who reviews books,entity,,entity,,unmapped_candidate,TRUE,FALSE,,
+HOLD0052,1,a creator named morgan i forget the surname,entity,,platform_or_topic,,not_applicable,FALSE,FALSE,,
+HOLD0069,1,a creator named sam who makes cooking videos,entity,,platform_or_topic,,not_applicable,FALSE,FALSE,,
