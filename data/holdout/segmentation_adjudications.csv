@@ -1,0 +1,5 @@
+RESPID,Q22_original,frozen_prepared_mentions,corrected_reference_mention,reason
+HOLD0013,"None, I don't follow online personalities",none | i dont follow online personalities,none i dont follow online personalities,"Retained one non-following response; second segment was a clarification, not a separate mention."
+HOLD0024,"I follow science explainers, not any one person",science explainers | not any one person,science explainers not any one person,Retained the science-content description and its no-individual qualification together.
+HOLD0073,"A bit of everything, really",a bit of everything | really,a bit of everything really,Retained the intensifier as part of one vague response.
+HOLD0082,"Ali on YouTube, not sure which Ali",ali on youtube | not sure which ali,ali on youtube not sure which ali,Retained the identity-uncertainty qualification with the person reference.
