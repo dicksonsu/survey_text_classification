@@ -1,0 +1,5 @@
+"RESPID","mention_number","Q22","reference_type","predicted_type","reference_entity","predicted_entity","reference_nonresponse_subtype","predicted_nonresponse_subtype","resolution_status","review_flag","category_correct","identity_eligible","identity_predicted","identity_exact","identity_normalized"
+"HOLD0044","1","my local radio station","platform_or_topic","named_source",,,,,"unresolved","TRUE",FALSE,FALSE,FALSE,FALSE,FALSE
+"HOLD0045","1","the podcast search engine","named_source","platform_or_topic","Search Engine",,,,"not_applicable","FALSE",FALSE,TRUE,FALSE,FALSE,FALSE
+"HOLD0050","1","contrapoints","named_source","entity","ContraPoints","ContraPoints",,,"resolved","FALSE",FALSE,TRUE,TRUE,TRUE,TRUE
+"HOLD0067","1","mkbhds interview show","entity","named_source","Marques Brownlee","Waveform with MKBHD",,,"resolved","FALSE",FALSE,TRUE,TRUE,FALSE,FALSE
