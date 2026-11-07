@@ -9,8 +9,11 @@ needed <- c("RESPID", "mention_number", "Q22", "Q22_original")
 stopifnot(all(needed %in% names(ref)))
 stopifnot(!anyDuplicated(ref[c("RESPID", "mention_number")]))
 
-# Fixed, simple development smoke-test subset: first 10 rows only.
-examples <- utils::head(ref[, needed], 10L)
+# Use all 114 researcher-reviewed development mentions.
+examples <- ref[, needed]
+
+# Verify the expected number of mentions.
+stopifnot(nrow(examples) == 114L)
 requests <- examples |>
   dplyr::mutate(
     system_prompt = llm_system_prompt(),
@@ -20,5 +23,12 @@ requests <- examples |>
   )
 
 dir.create("output/llm_classification", recursive = TRUE, showWarnings = FALSE)
-readr::write_csv(requests, "output/llm_classification/dev_requests_10.csv")
-cat("Created 10 synthetic DEVELOPMENT prompt requests. No API call was made.\n")
+readr::write_csv(
+  requests,
+  "output/llm_classification/dev_requests_114.csv"
+)
+
+cat(
+  "Created", nrow(requests),
+  "synthetic DEVELOPMENT prompt requests. No API call was made.\n"
+)
