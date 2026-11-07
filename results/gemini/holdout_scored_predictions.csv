@@ -1,0 +1,115 @@
+"RESPID","mention_number","Q22","reference_type","predicted_type","reference_entity","predicted_entity","reference_nonresponse_subtype","predicted_nonresponse_subtype","resolution_status","review_flag","category_correct","identity_eligible","identity_predicted","identity_exact","identity_normalized"
+"SYN0001","1","joe rogan","entity","entity","Joe Rogan","Joe Rogan",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0002","1","mrbeast","entity","entity","MrBeast","MrBeast",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0003","1","kai cenat","entity","entity","Kai Cenat","Kai Cenat",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0004","1","a sports podcast","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0005","1","youtube","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0006","1","i do not follow anyone","junk","junk",,,"does_not_follow","does_not_follow","not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0007","1","joe rogen","entity","entity","Joe Rogan","Joe Rogan",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0008","1","mr beast","entity","entity","MrBeast","MrBeast",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0008","2","kai cenat","entity","entity","Kai Cenat","Kai Cenat",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0009","1","espn","named_source","named_source","ESPN","ESPN",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0010","1","true crime","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0011","1","i cannot remember names","junk","junk",,,"cannot_recall","cannot_recall","not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0012","1","fresh & fit","named_source","named_source","Fresh and Fit","Fresh & Fit",,,"resolved","FALSE",TRUE,TRUE,TRUE,FALSE,FALSE
+"SYN0013","1","the daily","named_source","named_source","The Daily","The Daily",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0014","1","tiktok","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0014","2","instagram","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0015","1","mostly fitness videos","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0016","1","andrew huberman","entity","entity","Andrew Huberman","Andrew Huberman",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0016","2","lex fridman","entity","entity","Lex Fridman","Lex Fridman",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0017","1","no one in particular","junk","junk",,,"no_specific_name","no_specific_name","not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0018","1","jre","named_source","named_source","The Joe Rogan Experience","The Joe Rogan Experience",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0019","1","streamers","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0020","1","podcasts","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0021","1","cristiano ronaldo","entity","entity","Cristiano Ronaldo","Cristiano Ronaldo",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0022","1","cristiano ronaldo","entity","entity","Cristiano Ronaldo","Cristiano Ronaldo",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0022","2","mrbeast","entity","entity","MrBeast","MrBeast",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0023","1","none","junk","junk",,,"does_not_follow","does_not_follow","not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0024","1","not sure","junk","junk",,,"cannot_recall","cannot_recall","not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0025","1","dave ramsey","entity","entity","Dave Ramsey","Dave Ramsey",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0026","1","dave ramsay","entity","entity","Dave Ramsey","Dave Ramsey",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0027","1","the joe rogan experience","named_source","named_source","The Joe Rogan Experience","The Joe Rogan Experience",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0028","1","cooking creators","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0029","1","sports","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0029","2","gaming","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0029","3","technology","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0030","1","shannon sharpe","entity","entity","Shannon Sharpe","Shannon Sharpe",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0031","1","club shay shay","named_source","named_source","Club Shay Shay","Club Shay Shay",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0032","1","a few finance people","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0033","1","mark rober","entity","entity","Mark Rober","Mark Rober",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0034","1","mkbhd","entity","named_source","Marques Brownlee","Marques Brownlee",,,"resolved","FALSE",FALSE,TRUE,TRUE,TRUE,TRUE
+"SYN0035","1","marques brownlee","entity","entity","Marques Brownlee","Marques Brownlee",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0036","1","marques brownlee","entity","entity","Marques Brownlee","Marques Brownlee",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0037","1","cnn","named_source","named_source","CNN","CNN",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0038","1","bbc news","named_source","named_source","BBC News","BBC News",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0039","1","npr","named_source","named_source","NPR","NPR",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0040","1","the news","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0041","1","youtube","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0041","2","mr beast","entity","entity","MrBeast","MrBeast",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0042","1","the daily","named_source","named_source","The Daily","The Daily",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0043","1","andrew tate","entity","entity","Andrew Tate","Andrew Tate",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0044","1","jordan peterson","entity","entity","Jordan Peterson","Jordan Peterson",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0045","1","some people on twitch","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0046","1","instagram","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0047","1","n/a","junk","junk",,,"unusable","unusable","not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0048","1","idk","junk","junk",,,"cannot_recall","cannot_recall","not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0049","1","none really","junk","junk",,,"does_not_follow","does_not_follow","not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0050","1","joe rogan","entity","entity","Joe Rogan","Joe Rogan",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0050","2","dave ramsey","entity","entity","Dave Ramsey","Dave Ramsey",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0051","1","joe rogan","entity","entity","Joe Rogan","Joe Rogan",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0051","2","joe rogen","entity","entity","Joe Rogan","Joe Rogan",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0052","1","mrbeast","entity","entity","MrBeast","MrBeast",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0052","2","mark rober","entity","entity","Mark Rober","Mark Rober",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0052","3","mkbhd","entity","entity","Marques Brownlee","Marques Brownlee",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0053","1","stephen curry","entity","entity","Stephen Curry","Stephen Curry",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0054","1","lebron james","entity","entity","LeBron James","LeBron James",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0055","1","nba","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0056","1","nfl","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0057","1","nba highlights","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0058","1","politics","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0059","1","finance","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0060","1","music","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0061","1","a lot of different ones","generic_nonentity","generic_nonentity",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0062","1","too many to list","generic_nonentity","generic_nonentity",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0063","1","i do not know","junk","junk",,,"cannot_recall","cannot_recall","not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0064","1","nobody","junk","junk",,,"does_not_follow","does_not_follow","not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0065","1","ali abdaal","entity","entity","Ali Abdaal","Ali Abdaal",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0066","1","veritasium","named_source","named_source","Veritasium","Veritasium",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0067","1","kurzgesagt","named_source","named_source","Kurzgesagt","Kurzgesagt",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0068","1","hank green","entity","entity","Hank Green","Hank Green",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0069","1","cleo abram","entity","entity","Cleo Abram","Cleo Abram",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0070","1","michelle khare","entity","entity","Michelle Khare","Michelle Khare",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0071","1","a podcast about science","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0072","1","twitch","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0073","1","reddit","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0074","1","the daily show","named_source","named_source","The Daily Show","The Daily Show",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0075","1","the daily show","named_source","named_source","The Daily Show","The Daily Show",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0076","1","the daily","named_source","named_source","The Daily","The Daily",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0077","1","call her daddy","named_source","named_source","Call Her Daddy","Call Her Daddy",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0078","1","podcast shows","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0079","1","myself","junk","junk",,,"unusable","unusable","not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0080","1","good","junk","junk",,,"unusable","unusable","not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0081","1","a few on social media","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0082","1","pat mcafee","entity","entity","Pat McAfee","Pat McAfee",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0083","1","the pat mcafee show","named_source","named_source","The Pat McAfee Show","The Pat McAfee Show",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0084","1","shane gillis","entity","entity","Shane Gillis","Shane Gillis",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0085","1","theo von","entity","entity","Theo Von","Theo Von",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0086","1","theo von","entity","entity","Theo Von","Theo Von",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0086","2","shane gillis","entity","entity","Shane Gillis","Shane Gillis",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0087","1","youtube","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0087","2","twitch","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0088","1","kai cenat","entity","entity","Kai Cenat","Kai Cenat",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0089","1","dr mike","entity","entity","Doctor Mike","Dr. Mike",,,"resolved","FALSE",TRUE,TRUE,TRUE,FALSE,FALSE
+"SYN0090","1","doctor mike","entity","entity","Doctor Mike","Doctor Mike",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0091","1","researchers on youtube","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0092","1","some basketball players","platform_or_topic","platform_or_topic",,,,,"not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0094","1","mrbeast","entity","entity","MrBeast","MrBeast",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0095","1","j0e rogan","entity","entity","Joe Rogan","Joe Rogan",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0096","1","espn","named_source","named_source","ESPN","ESPN",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0096","2","the daily","named_source","named_source","The Daily","The Daily",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0097","1","i do not follow anybody","junk","junk",,,"does_not_follow","does_not_follow","not_applicable","FALSE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0098","1","npr","named_source","named_source","NPR","NPR",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0098","2","bbc news","named_source","named_source","BBC News","BBC News",,,"resolved","FALSE",TRUE,TRUE,TRUE,TRUE,TRUE
+"SYN0099","1","a creator called alex","entity","entity",,,,,"unresolved","TRUE",TRUE,FALSE,FALSE,FALSE,FALSE
+"SYN0100","1","alex","entity","entity",,,,,"unresolved","TRUE",TRUE,FALSE,FALSE,FALSE,FALSE

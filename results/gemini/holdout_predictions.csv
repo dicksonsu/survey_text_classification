@@ -1,0 +1,841 @@
+RESPID,mention_number,Q22,model,prompt_version,json_text,validation_ok,validation_reason,prompt_tokens,output_tokens,run_utc,response_type,entity_clean,resolution_status,nonresponse_subtype,review_flag,review_reason
+HOLD0001,1,i usually watch small channels that explain local transit projects,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,649,65,2026-11-07 17:05:20 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0002,1,the rest is history podcast,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""The Rest Is History"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,638,65,2026-11-07 17:05:34 UTC,named_source,The Rest Is History,resolved,,FALSE,
+HOLD0003,1,a lot of book review channels,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,640,65,2026-11-07 17:05:48 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0004,1,nate bargatze,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": ""Nate Bargatze"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,641,64,2026-11-07 17:06:02 UTC,entity,Nate Bargatze,resolved,,FALSE,
+HOLD0004,2,some cooking videos,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,640,65,2026-11-07 17:06:16 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0005,1,planet money,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Planet Money"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,635,63,2026-11-07 17:07:08 UTC,named_source,Planet Money,resolved,,FALSE,
+HOLD0006,1,nobody that i can name right now,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""junk"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": ""cannot_recall"",
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,642,64,2026-11-07 17:07:23 UTC,junk,,not_applicable,cannot_recall,FALSE,
+HOLD0007,1,some people who repair old cars,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,640,65,2026-11-07 17:07:37 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0008,1,pbs newshour,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""PBS NewsHour"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,638,64,2026-11-07 17:07:51 UTC,named_source,PBS NewsHour,resolved,,FALSE,
+HOLD0008,2,the bbc,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""BBC"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,637,62,2026-11-07 17:08:05 UTC,named_source,BBC,resolved,,FALSE,
+HOLD0009,1,chess streamers,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,65,2026-11-07 17:08:18 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0010,1,mina kimes,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": ""Mina Kimes"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,635,63,2026-11-07 17:08:32 UTC,entity,Mina Kimes,resolved,,FALSE,
+HOLD0011,1,a channel called city beautiful,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""City Beautiful"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,638,63,2026-11-07 17:08:46 UTC,named_source,City Beautiful,resolved,,FALSE,
+HOLD0012,1,a guy named ben who talks about running,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""unresolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": true,
+  ""review_reason"": ""Ambiguously identified individual referenced only by a first name and a general description.""
+}",TRUE,,644,75,2026-11-07 17:08:59 UTC,entity,,unresolved,,TRUE,Ambiguously identified individual referenced only by a first name and a general description.
+HOLD0014,1,mostly urban planning,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,637,65,2026-11-07 17:09:13 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0014,2,train videos,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,636,65,2026-11-07 17:09:27 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0015,1,tech reviews from smaller channels,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,640,65,2026-11-07 17:09:40 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0016,1,the ezra klein show,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""The Ezra Klein Show"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,637,65,2026-11-07 17:09:54 UTC,named_source,The Ezra Klein Show,resolved,,FALSE,
+HOLD0017,1,kara swisher,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": ""Kara Swisher"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,636,62,2026-11-07 17:10:08 UTC,entity,Kara Swisher,resolved,,FALSE,
+HOLD0017,2,pivot,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Pivot"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,62,2026-11-07 17:10:22 UTC,named_source,Pivot,resolved,,FALSE,
+HOLD0018,1,a podcast named acquired,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Acquired"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,639,63,2026-11-07 17:10:36 UTC,named_source,Acquired,resolved,,FALSE,
+HOLD0019,1,videos about starting a small business,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,640,65,2026-11-07 17:10:49 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0020,1,youtube shorts,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,632,65,2026-11-07 17:11:03 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0021,1,i think maybe hasan minhaj,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": ""Hasan Minhaj"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,641,63,2026-11-07 17:11:17 UTC,entity,Hasan Minhaj,resolved,,FALSE,
+HOLD0022,1,my favorite is defunctland,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Defunctland"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,639,64,2026-11-07 17:11:31 UTC,named_source,Defunctland,resolved,,FALSE,
+HOLD0023,1,people who break down supreme court decisions,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,642,65,2026-11-07 17:11:44 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0025,1,a couple of historians on tiktok,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,640,65,2026-11-07 17:11:58 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0026,1,gamers on twitch,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,638,65,2026-11-07 17:12:12 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0026,2,tiktok,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,635,65,2026-11-07 17:12:26 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0027,1,a lot of food content,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,640,65,2026-11-07 17:12:39 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0028,1,a girl named jess who reviews books,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""unresolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": true,
+  ""review_reason"": ""Ambiguously identified individual ('a girl named jess') without a full name or unique channel handle to resolve identity.""
+}",TRUE,,643,83,2026-11-07 17:12:53 UTC,entity,,unresolved,,TRUE,Ambiguously identified individual ('a girl named jess') without a full name or unique channel handle to resolve identity.
+HOLD0029,1,no one regularly,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""junk"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": ""does_not_follow"",
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,636,66,2026-11-07 17:13:07 UTC,junk,,not_applicable,does_not_follow,FALSE,
+HOLD0030,1,some newsletter writers,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,65,2026-11-07 17:13:22 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0031,1,hank,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": ""Hank Green"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,633,61,2026-11-07 17:13:36 UTC,entity,Hank Green,resolved,,FALSE,
+HOLD0031,2,john green,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": ""John Green"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,61,2026-11-07 17:13:50 UTC,entity,John Green,resolved,,FALSE,
+HOLD0032,1,the verge,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""The Verge"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,632,63,2026-11-07 17:14:03 UTC,named_source,The Verge,resolved,,FALSE,
+HOLD0033,1,nprs planet money,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Planet Money"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,638,63,2026-11-07 17:14:17 UTC,named_source,Planet Money,resolved,,FALSE,
+HOLD0034,1,just what pops up in my feed,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""generic_nonentity"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,642,64,2026-11-07 17:14:31 UTC,generic_nonentity,,not_applicable,,FALSE,
+HOLD0035,1,documentaries about architecture,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,637,65,2026-11-07 17:14:44 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0036,1,the athletic,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""The Athletic"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,632,63,2026-11-07 17:14:58 UTC,named_source,The Athletic,resolved,,FALSE,
+HOLD0037,1,football analysis podcasts,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,65,2026-11-07 17:15:12 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0038,1,pod save america,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Pod Save America"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,64,2026-11-07 17:15:26 UTC,named_source,Pod Save America,resolved,,FALSE,
+HOLD0039,1,a few people who do personal finance,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,642,65,2026-11-07 17:15:39 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0040,1,i cant think of their names right now,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""junk"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": ""cannot_recall"",
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,646,64,2026-11-07 17:15:53 UTC,junk,,not_applicable,cannot_recall,FALSE,
+HOLD0041,1,lofi girl,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Lofi Girl"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,64,2026-11-07 17:16:07 UTC,named_source,Lofi Girl,resolved,,FALSE,
+HOLD0042,1,independent journalists,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,65,2026-11-07 17:16:21 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0043,1,adam ragusea,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": ""Adam Ragusea"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,636,63,2026-11-07 17:16:35 UTC,entity,Adam Ragusea,resolved,,FALSE,
+HOLD0044,1,my local radio station,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""unresolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": true,
+  ""review_reason"": ""Reference is to a local radio station without naming a specific station or call sign.""
+}",TRUE,,636,78,2026-11-07 17:16:49 UTC,named_source,,unresolved,,TRUE,Reference is to a local radio station without naming a specific station or call sign.
+HOLD0045,1,the podcast search engine,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,636,65,2026-11-07 17:17:03 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0046,1,creators that talk about cycling safety,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,641,65,2026-11-07 17:17:17 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0047,1,nobody comes to mind,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""junk"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": ""cannot_recall"",
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,636,64,2026-11-07 17:17:31 UTC,junk,,not_applicable,cannot_recall,FALSE,
+HOLD0048,1,business insider,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Business Insider"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,632,63,2026-11-07 17:17:44 UTC,named_source,Business Insider,resolved,,FALSE,
+HOLD0049,1,technology connections,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Technology Connections"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,632,63,2026-11-07 17:17:58 UTC,named_source,Technology Connections,resolved,,FALSE,
+HOLD0050,1,contrapoints,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": ""ContraPoints"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,61,2026-11-07 17:18:12 UTC,entity,ContraPoints,resolved,,FALSE,
+HOLD0051,1,youtube,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,65,2026-11-07 17:18:26 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0051,2,mostly history stuff,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,636,65,2026-11-07 17:18:40 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0052,1,a creator named morgan i forget the surname,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""unresolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": true,
+  ""review_reason"": ""The reference is to an individual named Morgan, but the surname and sufficient identifying context are missing.""
+}",TRUE,,645,79,2026-11-07 17:18:54 UTC,entity,,unresolved,,TRUE,"The reference is to an individual named Morgan, but the surname and sufficient identifying context are missing."
+HOLD0053,1,the new york times daily podcast,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""The Daily"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,640,63,2026-11-07 17:19:08 UTC,named_source,The Daily,resolved,,FALSE,
+HOLD0055,1,stuff about city budgets,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,636,65,2026-11-07 17:19:50 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0056,1,a news show called democracy now,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Democracy Now!"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,643,64,2026-11-07 17:20:04 UTC,named_source,Democracy Now!,resolved,,FALSE,
+HOLD0057,1,some woodworking folks,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,65,2026-11-07 17:20:18 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0058,1,not applicable,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""junk"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": ""unusable"",
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,632,63,2026-11-07 17:20:32 UTC,junk,,not_applicable,unusable,FALSE,
+HOLD0059,1,the channel practical engineering,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Practical Engineering"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,638,63,2026-11-07 17:20:46 UTC,named_source,Practical Engineering,resolved,,FALSE,
+HOLD0060,2,smarter every day,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Smarter Every Day"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,642,66,2026-11-07 17:21:15 UTC,named_source,Smarter Every Day,resolved,,FALSE,
+HOLD0061,1,stream highlights,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,635,65,2026-11-07 17:21:29 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0062,1,fireship,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Fireship"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,633,64,2026-11-07 17:21:44 UTC,named_source,Fireship,resolved,,FALSE,
+HOLD0063,1,politico,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Politico"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,636,63,2026-11-07 17:21:59 UTC,named_source,Politico,resolved,,FALSE,
+HOLD0063,2,propublica,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""ProPublica"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,637,64,2026-11-07 17:22:19 UTC,named_source,ProPublica,resolved,,FALSE,
+HOLD0064,1,one of those astronomy channels,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,638,65,2026-11-07 17:22:35 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0065,1,i dont know who makes the videos,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""junk"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": ""cannot_recall"",
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,644,64,2026-11-07 17:22:49 UTC,junk,,not_applicable,cannot_recall,FALSE,
+HOLD0066,1,mostly parenting advice accounts,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,636,65,2026-11-07 17:23:02 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0067,1,mkbhds interview show,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Waveform with MKBHD"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,640,67,2026-11-07 17:23:17 UTC,named_source,Waveform with MKBHD,resolved,,FALSE,
+HOLD0068,1,patrick boyle,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": ""Patrick Boyle"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,633,61,2026-11-07 17:23:31 UTC,entity,Patrick Boyle,resolved,,FALSE,
+HOLD0069,1,a creator named sam who makes cooking videos,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""unresolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": true,
+  ""review_reason"": ""The reference is to 'a creator named Sam', which is ambiguous and lacks sufficient identifying information such as a full name or channel handle to resolve the specific individual.""
+}",TRUE,,644,92,2026-11-07 17:23:44 UTC,entity,,unresolved,,TRUE,"The reference is to 'a creator named Sam', which is ambiguous and lacks sufficient identifying information such as a full name or channel handle to resolve the specific individual."
+HOLD0071,1,running shoe reviews,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,636,65,2026-11-07 17:24:12 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0072,1,tennis tv,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Tennis TV"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,632,63,2026-11-07 17:24:35 UTC,named_source,Tennis TV,resolved,,FALSE,
+HOLD0074,1,undecided with matt ferrell,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Undecided with Matt Ferrell"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,641,67,2026-11-07 17:24:49 UTC,named_source,Undecided with Matt Ferrell,resolved,,FALSE,
+HOLD0075,1,creators who cover immigration law,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,641,65,2026-11-07 17:25:04 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0076,1,i dont really use social media,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""junk"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": ""does_not_follow"",
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,642,66,2026-11-07 17:25:18 UTC,junk,,not_applicable,does_not_follow,FALSE,
+HOLD0077,1,pbs space time,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""PBS Space Time"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,64,2026-11-07 17:25:32 UTC,named_source,PBS Space Time,resolved,,FALSE,
+HOLD0078,1,some nutrition researchers,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,65,2026-11-07 17:25:45 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0079,1,citynerd,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""CityNerd"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,64,2026-11-07 17:25:59 UTC,named_source,CityNerd,resolved,,FALSE,
+HOLD0080,1,i like board game review channels,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,640,65,2026-11-07 17:26:13 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0081,1,videos about public schools,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,638,65,2026-11-07 17:26:27 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0083,1,i subscribe to the decoder podcast,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Decoder"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,640,62,2026-11-07 17:26:40 UTC,named_source,Decoder,resolved,,FALSE,
+HOLD0084,1,my own channel,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""junk"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": ""unusable"",
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,63,2026-11-07 17:26:54 UTC,junk,,not_applicable,unusable,FALSE,
+HOLD0085,1,audio gear reviewers,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,636,65,2026-11-07 17:27:08 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0086,1,caspianreport,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""CaspianReport"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,635,65,2026-11-07 17:27:22 UTC,named_source,CaspianReport,resolved,,FALSE,
+HOLD0087,1,a podcast about the housing market,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,640,65,2026-11-07 17:27:35 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0088,1,no creators only friends posts,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""junk"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": ""does_not_follow"",
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,640,66,2026-11-07 17:27:49 UTC,junk,,not_applicable,does_not_follow,FALSE,
+HOLD0089,1,creators i found on threads,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,639,65,2026-11-07 17:28:03 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0090,1,marques brownlees car reviews,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": ""Marques Brownlee"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,642,63,2026-11-07 17:28:16 UTC,entity,Marques Brownlee,resolved,,FALSE,
+HOLD0091,1,weird history,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Weird History"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,633,64,2026-11-07 17:28:30 UTC,named_source,Weird History,resolved,,FALSE,
+HOLD0092,1,discussions of macroeconomics,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,639,65,2026-11-07 17:28:44 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0093,1,matt davella,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": ""Matt D'Avella"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,636,64,2026-11-07 17:28:57 UTC,entity,Matt D'Avella,resolved,,FALSE,
+HOLD0094,1,an account called better ideas,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""Better Ideas"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,638,63,2026-11-07 17:29:11 UTC,named_source,Better Ideas,resolved,,FALSE,
+HOLD0095,1,just random people,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""generic_nonentity"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,64,2026-11-07 17:29:25 UTC,generic_nonentity,,not_applicable,,FALSE,
+HOLD0096,1,not sure,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""junk"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": ""cannot_recall"",
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,632,64,2026-11-07 17:29:38 UTC,junk,,not_applicable,cannot_recall,FALSE,
+HOLD0097,1,the war on cars podcast,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""The War on Cars"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,638,65,2026-11-07 17:29:52 UTC,named_source,The War on Cars,resolved,,FALSE,
+HOLD0098,1,some local reporters,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,636,65,2026-11-07 17:30:06 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0099,1,people who explain how elections work,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,642,65,2026-11-07 17:30:20 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0100,1,n/a,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""junk"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": ""unusable"",
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,634,63,2026-11-07 17:30:33 UTC,junk,,not_applicable,unusable,FALSE,
+HOLD0054,1,a few fitness coaches on instagram,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""platform_or_topic"",
+  ""entity_clean"": null,
+  ""resolution_status"": ""not_applicable"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,640,65,2026-11-07 17:31:40 UTC,platform_or_topic,,not_applicable,,FALSE,
+HOLD0060,1,destin sandlin,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""entity"",
+  ""entity_clean"": ""Destin Sandlin"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,641,63,2026-11-07 17:31:54 UTC,entity,Destin Sandlin,resolved,,FALSE,
+HOLD0070,1,the economist,gemini-3.5-flash-lite,gemini_prompt_v2_2026-11-07,"{
+  ""response_type"": ""named_source"",
+  ""entity_clean"": ""The Economist"",
+  ""resolution_status"": ""resolved"",
+  ""nonresponse_subtype"": null,
+  ""review_flag"": false,
+  ""review_reason"": null
+}",TRUE,,632,63,2026-11-07 17:32:08 UTC,named_source,The Economist,resolved,,FALSE,
